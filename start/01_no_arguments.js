@@ -1,10 +1,10 @@
 const name = "Andrew";
 
-function sayName() {
+const sayName = () => {
     const message = "My name is " + name;
     console.log(message);
 }
 
-function sayBye() {
+const sayBye = () => {
   console.log("Bye " + name);  
 }
